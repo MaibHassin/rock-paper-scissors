@@ -6,4 +6,7 @@ function computerPlay() {
            'scissors';
 }
 
-console.log(computerPlay());
+function playerSelection() {
+    let playerMove = prompt('Please write your move (rock, paper or scissors)');
+    return playerMove.toLowerCase();
+}
