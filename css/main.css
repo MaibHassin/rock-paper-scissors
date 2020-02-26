@@ -37,10 +37,11 @@ body {
 
 .reference a {
     color: #4CB041;
+    text-decoration: none;
 }
 
-.reference a:hover {
-    opacity: 0.5;
+.reference a:hover{
+    text-decoration: underline;
 }
 
 .reference a:active {
