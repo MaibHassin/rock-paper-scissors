@@ -1,8 +1,11 @@
 body {
-    margin: 0;
-    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #333;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* header */
@@ -46,4 +49,66 @@ body {
 
 .reference a:active {
     color: #fff;
+}
+
+/* main */
+.game {
+    height: 70vh;
+    width: 100%;
+}
+
+.game__container {
+    width: 80vw;
+    height: 100%;
+    margin: auto;
+    background-color: rgb(0, 139, 35);
+    display: flex;
+}
+
+.game__section {
+    height: 100%;
+}
+
+.game__player{
+    width: 20%;
+    background-color: #26ff1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.game__player .move__card {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 150ms ease-in-out;
+}
+
+.game__human .move__card {
+    background-color: #1e90ff;
+    border: 2px solid #1e2dff;
+}
+
+.game__human .move__card:hover {
+    transform: scale(1.1);
+}
+
+.game__computer .move__card {
+    background-color: #ff651e;
+    border: 2px solid #ff1e1e;
+}
+
+/* score section */
+.game__board {
+    width: 60%;
+}
+
+.board {
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
 }
