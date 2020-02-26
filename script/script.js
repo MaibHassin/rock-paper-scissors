@@ -75,11 +75,11 @@ function humanMove(move, result) {
     let resultTextColor;
 
     if (move == 'rock') {
-        imgAddress = '../images/icons8-hand-rock-100.png';
+        imgAddress = './images/icons8-hand-rock-100.png';
     } else if (move == 'paper') {
-        imgAddress = '../images/icons8-hand-100.png';
+        imgAddress = './images/icons8-hand-100.png';
     } else {
-        imgAddress = '../images/icons8-hand-scissors-100.png';
+        imgAddress = './images/icons8-hand-scissors-100.png';
     }
 
     if (result == 1) {
@@ -106,11 +106,11 @@ function computerMove(move, result) {
     let resultTextColor;
 
     if (move == 'rock') {
-        imgAddress = '../images/icons8-rock-100.png';
+        imgAddress = './images/icons8-rock-100.png';
     } else if (move == 'paper') {
-        imgAddress = '../images/icons8-paper-100.png';
+        imgAddress = './images/icons8-paper-100.png';
     } else {
-        imgAddress = '../images/icons8-scissors-100.png';
+        imgAddress = './images/icons8-scissors-100.png';
     }
 
     if (result == 1) {
