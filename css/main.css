@@ -18,6 +18,13 @@ body {
     color: #fff;
 }
 
+.heading__title,
+.heading__sub,
+.heading__instructions,
+.heading__rules {
+    padding: 10px;
+}
+
 .heading b {
     text-decoration: underline;
 }
@@ -36,6 +43,7 @@ body {
 .reference {
     color: #fff;
     text-align: center;
+    padding: 15px;
 }
 
 .reference a {
