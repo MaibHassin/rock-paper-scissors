@@ -86,7 +86,7 @@ body {
     align-items: center;
 }
 
-.game__player .move__card {
+.move__card {
     width: 130px;
     height: 130px;
     display: flex;
@@ -128,7 +128,7 @@ body {
 
 .board .board__scores {
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
