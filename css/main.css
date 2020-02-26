@@ -106,6 +106,10 @@ body {
     cursor: pointer;
 }
 
+.pressed {
+    transform: scale(1.1);
+}
+
 .game__computer .move__card {
     background-color: #ff651e;
     border: 2px solid #ff1e1e;
